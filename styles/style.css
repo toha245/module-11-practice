@@ -64,6 +64,11 @@ header{
     margin-bottom: 120px;
 }
 
+
+.menu{
+    display: none;
+}
+
 nav > ul{
     display: flex;
     align-items: center;
@@ -82,3 +87,41 @@ nav > ul > li{
 .right{
     color: #3A3A3A;
 }
+
+/* 1st section */
+
+.first-section{
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 120px;
+}
+.start{
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.lorem{
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.btn-container .btn{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 25px 10px;
+    border: none;
+    border-radius: 45px;
+}
+
+.image-container{
+    background-image: url(../images/Circle\ design.svg);
+    padding-bottom: 55px;
+    padding-right: 35px;
+}
+
+/* header and first section responsive */
+
