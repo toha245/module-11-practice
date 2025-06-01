@@ -126,9 +126,12 @@ nav>ul>li {
     border-radius: 45px;
 }
 
+.btn-container .btn .fa-solid{
+    vertical-align: middle;
+}
+
 .image-container {
     background-image: url(../images/Circle\ design.svg);
-    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -209,8 +212,8 @@ nav>ul>li {
 }
 
 .seemore{
-    width: 100%;
-    margin: 0;
+    width: 97%;
+    margin: 0 auto;
     justify-content: end;
     display: flex;
     align-items: center;
@@ -222,6 +225,7 @@ nav>ul>li {
 }
 .seemore .fa-solid{
     padding-left: 5px;
+    vertical-align: middle;
 }
 
 /* fourth section related styles */
@@ -349,7 +353,6 @@ text-align: left;
     .image-container {
         background-image: url(../images/Circle\ design.svg);
         background-size: contain;
-        background-position: absolute;
         background-repeat: no-repeat;
         width: 85%;
         justify-content: center;
@@ -489,6 +492,63 @@ text-align: left;
 }
 /* third section end */
 /* third section end */
+
+/* fourth section responsive related styles */
+
+.fourth-section{
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.f-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    gap: 96px;
+}
+.f-container .image-container{
+    width: 100%;
+}
+.f-container .image-container img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-part{
+    width: 100%;
+}
+
+.text-part h1{
+margin-bottom: 15px;
+color: rgb(10, 8, 38);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: center;
+}
+
+.text-part p{
+width: 100%;
+color: rgb(108, 108, 108);
+font-size: 16px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 40px;
+}
+.text-part button{
+    border: none;
+    padding: 10px 24px 10px 24px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+}
+
+.text-part .fa-solid{
+    padding-left: 5px;
+    vertical-align: middle;
+}
 
 }
 
