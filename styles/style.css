@@ -61,7 +61,6 @@
 
 /* header related styles */
 
-
 .header {
     width: 85%;
     display: flex;
@@ -131,7 +130,6 @@ nav>ul>li {
     background-image: url(../images/Circle\ design.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center center;
 }
 
 .image-container img {
@@ -160,7 +158,7 @@ nav>ul>li {
 /* third section related styles */
 /* third section related styles */
 .third-section {
-    width: 100%;
+    width: 85%;
     margin: 0 auto;
     margin-bottom: 80px;
 }
@@ -210,6 +208,65 @@ nav>ul>li {
     padding-top: 0px;
 }
 
+.seemore{
+    width: 100%;
+    margin: 0;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #E02C6DDE;
+
+}
+.seemore .fa-solid{
+    padding-left: 5px;
+}
+
+/* fourth section related styles */
+.fourth-section{
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 96px;
+}
+
+.text-part{
+    width: 610px;
+}
+
+.text-part h1{
+margin-bottom: 15px;
+color: rgb(10, 8, 38);
+font-size: 38px;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+}
+.text-part p{
+width: 500px;
+color: rgb(108, 108, 108);
+font-size: 16px;
+font-weight: 700;
+text-align: left;
+}
+.text-part button{
+    border: none;
+    padding: 10px 24px 10px 24px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+}
+
+.text-part .fa-solid{
+    padding-left: 5px;
+    vertical-align: middle;
+}
 /* header and first section responsive */
 /* header and first section responsive */
 
@@ -413,6 +470,22 @@ nav>ul>li {
     font-size: 14px;
     font-weight: 700;
     color: #787885;
+}
+
+.seemore{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: end;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #E02C6DDE;
+
+}
+.seemore .fa-solid{
+    padding-left: 5px;
 }
 /* third section end */
 /* third section end */
